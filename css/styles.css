@@ -191,12 +191,11 @@ body {
   border: none;
   margin-top: 48px;
   margin: auto;
-
+  border-radius: 4px;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   background-color: var(--blu);
-
   color: var(--main-title-color);
 }
 .first-btn:hover {
@@ -312,7 +311,7 @@ body {
   flex-basis: calc((100% - 48px) / 3);
 }
 .pay-uptext {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .pay-div {
   padding-top: 32px;
@@ -374,6 +373,7 @@ body {
   background-color: var(--main-title-color);
 }
 .logo-footer {
+  display: flex;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -384,11 +384,13 @@ body {
   margin-bottom: 16px;
 }
 .portfolio-logo-footer {
+  display: flex;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
   text-transform: uppercase;
   color: var(--blu);
 }
